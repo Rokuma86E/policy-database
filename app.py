@@ -17,7 +17,7 @@ def load_data():
     conn.close()
     return df
 
-st.title("🌍 国际语言与移民政策检索系统")
+st.title("🌍 世界典型移民国家移民语言政策检索系统")
 
 try:
     df = load_data()
